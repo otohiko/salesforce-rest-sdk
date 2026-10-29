@@ -1,5 +1,5 @@
 {
-    "name": "playable-cn/salesforce-rest-sdk",
+    "name": "otohiko/salesforce-rest-sdk",
     "description": "An SDK for the Salesforce Rest API",
     "type": "library",
     "require": {

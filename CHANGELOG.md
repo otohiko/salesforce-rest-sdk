@@ -1,5 +1,6 @@
 # CHANGELOG
 ##v2.2.0 (2026-10-26)
+[CHANGE] rename the package to otohiko/salesforce-rest-sdk (published on Packagist from github.com/otohiko/salesforce-rest-sdk)
 [CHANGE] require PHP ^8.2, Guzzle 7 and psr/http-message ^1.1|^2.0; widen symfony / doctrine / psr/log / ramsey/uuid constraints
 [CHANGE] CsvStream no longer implements StreamInterface (its read() / getContents() return CSV rows, which psr/http-message 2.0 does not allow); Bulk\Client::getResult() now returns StreamInterface|CsvStream
 [FIX] use GuzzleHttp\Utils::chooseHandler() instead of the removed Guzzle 6 function
